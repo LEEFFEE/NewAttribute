@@ -1,1 +1,0 @@
-include ':app', ':Android(6.0)', ':Android(7.0)', ':greendao3', 'Android(5.0)'
