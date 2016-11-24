@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script type="text/javascript">
+
+	function javaCallJs(){
+		 document.getElementById("content").innerHTML +=   
+	         "<br\>java调用了js无参函数";
+	}
+	
+	function javaCallJs(arg){
+		 document.getElementById("content").innerHTML =
+	         ("欢迎："+arg );
+	}
+	
+	
+   function showDialog(){
+      alert("谷粉们你好,我是来自javascript");
+   }
+   
+
+
+
+
+
+
+    </script>
+
+
+</head>
+
+
+<body>
+
+<div align="left" id="content"> 百度粉</div>
+<div align="right">欢迎光临</div>
+
+<!--<p><img src="http://atguigu.com/images/logo.gif"></p>-->
+<p><img src="images/bd_logo.png" width="240dp"></p>
+
+<input type="button" width="30dp"  value="点击调用Android的吐司" onclick="window.android.showToast()"/><br>
+<input type="button" width="30dp" value="点击调用Android的吐司(带参)" onclick="window.android.showToast('hello')"/>
+
+</body>
+
+
+</html>
