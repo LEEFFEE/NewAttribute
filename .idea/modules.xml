@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android(5.0)/Android(5.0).iml" filepath="$PROJECT_DIR$/Android(5.0)/Android(5.0).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android(6.0)/Android(6.0).iml" filepath="$PROJECT_DIR$/Android(6.0)/Android(6.0).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android(7.0)/Android(7.0).iml" filepath="$PROJECT_DIR$/Android(7.0)/Android(7.0).iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewAttribute.iml" filepath="$PROJECT_DIR$/NewAttribute.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greendao3/greendao3.iml" filepath="$PROJECT_DIR$/greendao3/greendao3.iml" />
+    </modules>
+  </component>
+</project>
