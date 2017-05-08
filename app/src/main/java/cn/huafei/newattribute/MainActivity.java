@@ -19,6 +19,7 @@ import cn.huafei.newattribute.shadow_clip.ShadowClipActivity;
 import cn.huafei.newattribute.theme.ThemeActivity;
 import cn.huafei.newattribute.tint.TintActivity;
 import cn.huafei.newattribute.toolbar.ToolbarActivity;
+import cn.huafei.newattribute.vlayout.VLayoutListActivity;
 import cn.huafei.newattribute.ws.WebServiceActivity;
 
 public class MainActivity extends ListActivity {
@@ -38,6 +39,7 @@ public class MainActivity extends ListActivity {
         datas.add(new NameAndClass("HTML5与Android互调(WebView)", H5Activity.class));
         datas.add(new NameAndClass("WebService调用", WebServiceActivity.class));
         datas.add(new NameAndClass("Retrofit2使用", RetrofitActivity.class));
+        datas.add(new NameAndClass("VLayout使用", VLayoutListActivity.class));
     }
 
     protected void onCreate(Bundle savedInstanceState) {

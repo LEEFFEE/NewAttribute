@@ -26,7 +26,7 @@ public class RetrofitActivity extends BaseActivity {
     @Override
     public void initData(View createdView) {
         //demo1();
-        int a=9;
+        int a = 9;
     }
 
     private void demo1() {
@@ -42,21 +42,21 @@ public class RetrofitActivity extends BaseActivity {
             @Override
             public void onResponse(Call<Classify> call, Response<Classify> response) {
                 //2.1取出响应正文
-//                Classify body = response.body();
-//                int size = body.getTngou().size();
-//                String description = body.getTngou().get(0).getDescription();
-//                mTextView.setText(size+"@@"+description);
+                //                Classify body = response.body();
+                //                int size = body.getTngou().size();
+                //                String description = body.getTngou().get(0).getDescription();
+                //                mTextView.setText(size+"@@"+description);
                 //2.2取出响应头
-//                Headers headers = response.headers();
-//                Set<String> names = headers.names();
-//                Iterator<String> iterator = names.iterator();
-//                String next = iterator.next();
-//                List<String> values = headers.values(next);
-//                mTextView.setText(next+"**"+values);
+                //                Headers headers = response.headers();
+                //                Set<String> names = headers.names();
+                //                Iterator<String> iterator = names.iterator();
+                //                String next = iterator.next();
+                //                List<String> values = headers.values(next);
+                //                mTextView.setText(next+"**"+values);
 
                 //2.3获取请求url
-//                String s = call.request().url().toString();
-//                mTextView.setText(s);
+                //                String s = call.request().url().toString();
+                //                mTextView.setText(s);
             }
 
             @Override

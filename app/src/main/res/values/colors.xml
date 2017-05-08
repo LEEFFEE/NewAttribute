@@ -28,4 +28,10 @@
     <color name="control_highlight_red">#f69988</color>    <!-- 200 -->
     <color name="control_activated_red">#ff2d6f</color>    <!-- A700 -->
     <color name="button_normal_red">#e00032</color> <!-- 400 -->
+
+
+    <color name="item_border_color">#666666</color>
+    <color name="item_default_color">#22EEEEEE</color>
+    <color name="item_pressed_color">#CCCCCC</color>
+    <color name="item_activated_color">#77CEEE</color>
 </resources>
